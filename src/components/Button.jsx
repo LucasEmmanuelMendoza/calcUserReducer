@@ -1,3 +1,3 @@
-export const Button = ({ content, onClick }) => (
-  <button onClick={() => onClick(content)}>{content}</button>
+export const Button = ({ content, click }) => (
+  <button onClick={() => click(content)}>{content}</button>
 );
